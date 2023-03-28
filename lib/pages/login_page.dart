@@ -67,7 +67,8 @@ class _LogInPageState extends State<LogInPage> {
                 hintText: 'Password',
                 obscureText: isObscureText,
                 prefixIcon: const Icon(Icons.password, color: Colors.grey),
-                suffixIcon: isObscureText? Icons.visibility : Icons.visibility_off,
+                suffixIcon:
+                    isObscureText ? Icons.visibility_off : Icons.visibility,
                 onPressed: showPasswordHandler,
               ),
 
