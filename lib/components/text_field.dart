@@ -36,7 +36,7 @@ class MyTextField extends StatelessWidget {
             hintText: hintText,
             prefixIcon: prefixIcon,
             suffixIcon: IconButton(
-              icon: Icon(suffixIcon, color: Colors.grey),
+              icon: Icon(suffixIcon, color: Colors.grey[700]),
               onPressed: onPressed,
             )),
         obscureText: obscureText,
