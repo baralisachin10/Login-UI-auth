@@ -5,7 +5,7 @@ import 'package:form_validation/components/text_field.dart';
 import '../components/my_button.dart';
 
 class LogInPage extends StatefulWidget {
-  LogInPage({super.key});
+  const LogInPage({super.key});
 
   @override
   State<LogInPage> createState() => _LogInPageState();
